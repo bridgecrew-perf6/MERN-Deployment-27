@@ -1,0 +1,175 @@
+.title{
+  color:black;
+  margin-left:20px;
+}
+
+header{
+  display:flex;
+  justify-content: space-between;
+  height:80px;
+  align-items: center;
+}
+
+.category{
+  display: flex;
+  gap:30px;
+  align-items: center;
+}
+
+button{
+  margin-left: 10px;
+}
+.rightbar{
+  display: flex;
+  gap:25px;
+  margin-right:20px;
+}
+.mainbody{
+  display: flex;
+  justify-content: center;
+}
+
+.mainimage{
+  display: flex;
+  height: 900px;
+}
+.imagetext{
+  position:absolute;
+  top: 275px;
+  font-size: 65px;
+}
+
+li img{
+  width:225px
+}
+
+li{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:250px;
+  gap:10px;
+  border-color: #E4E3E8 ;
+  border-width: 1px;
+  border-style: solid;
+  box-sizing: border-box;
+  padding:10px;
+  height:330px;
+}
+
+li div{
+  margin-bottom: 10px;
+}
+
+.recshoes ul{
+  display:flex;
+  gap:50px;
+  margin-left:125px;
+  padding:10px 100px;
+}
+
+.hrefshoe{
+  text-decoration: none;
+  color:black;
+}
+
+.dividers{
+  margin-left:225px;
+}
+
+.dividersone{
+  display:flex;
+  align-items: baseline;
+  gap:25px;
+}
+
+.totalshoe{
+  display:flex;
+  align-items: center;
+  gap:100px;
+  border-bottom: 1px solid grey;
+}
+.shoebody{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 400px;
+  padding-left: 400px;
+}
+
+.shoecolumns{
+  display:flex;
+  flex-wrap:wrap;
+  gap:50px;
+}
+
+.shoebody{
+  display:flex;
+  justify-content: center;
+}
+
+
+.shoecate img{
+  width:100px;
+}
+
+.shoecate{
+  display:flex;
+  border: 1px solid black;
+  width:700px;
+  justify-content: center;
+  margin: 0 auto;
+  gap:20px;
+}
+.shoecatecol{
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+  gap:25px;
+}
+
+.searchbar{
+  width:600px;
+  height: 25px;
+  border-radius: 25px;
+  border: 1px solid grey;
+}
+
+.nolink{
+  text-decoration: none;
+  color: black;
+}
+
+
+.menu-button{
+  background-color: transparent;
+  border:none;
+  cursor: pointer;
+}
+
+.right-menu{
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-menu{
+  display: none;
+  position: absolute;
+  min-width: 100px;
+  z-index: 1;
+}
+
+.dropdown-menu Link:hover{
+  background-color: white;
+  color:white;
+}
+.right-menu:hover .dropdown-menu{
+  display:flex;
+  flex-direction: column;
+  background-color: white;
+  margin-left:30px;
+}
+
+.right-menu:hover .menu-button{
+  background-color: white;
+}
