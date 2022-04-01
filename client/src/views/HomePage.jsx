@@ -31,7 +31,7 @@ const HomePage = (props) => {
         props.eleclist.map((elec, index)=>{
             axios.get(`https://stockx.com/api/products/${elec}/?includes=market`,{
                 headers:{
-                    "Access-Control-Allow-Orgin":"*",
+                    "Access-Control-Allow-Orgin":"http://localhost:3000",
                     "Access-Control-Allow": 'Authorization'
                 }})
                 .then(response => {
@@ -44,7 +44,7 @@ const HomePage = (props) => {
     return (
     <div>
         <header>
-            <h1 className='title'><Link to='/' className='nolink'>Gifts-R-Us</Link></h1>
+            <h1 className='title'><Link to='/' className='nolink'>Giftio</Link></h1>
             <div className="category">
                 <form onSubmit={handleSubmit}>
                     <input type="text" placeholder="Search.." value={id} className='searchbar'onChange={e=>setId(e.target.value)}/>
@@ -69,7 +69,7 @@ const HomePage = (props) => {
         </header>
         <div className='mainbody'>
             <img src="/shoesmain.png" alt=""  className='mainimage'/>
-            <h2 className='imagetext'>Gifts-R-Us</h2>
+            <h2 className='imagetext'>Giftio</h2>
         </div>
         <div>
             <div className='dividersone'>

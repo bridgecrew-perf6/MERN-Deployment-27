@@ -29,7 +29,7 @@ const Yeezy = () => {
   return (
     <div>
         <header>
-            <h1 className='title'><Link to='/' className='nolink'>Gifts-R-Us</Link></h1>
+            <h1 className='title'><Link to='/' className='nolink'>Giftio</Link></h1>
             <div className="category">
                 <form onSubmit={handleSubmit}>
                     <input type="text" placeholder="Search.." value={id} className='searchbar'onChange={e=>setId(e.target.value)}/>

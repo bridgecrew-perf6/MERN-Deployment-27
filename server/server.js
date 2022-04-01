@@ -4,9 +4,7 @@ const app = express()
 
 
 require("./configs/mongoose.config")
-app.use(cors({
-    orgin: '*',
-}));
+app.use(cors());
 app.use(express.json(), express.urlencoded({ extended: true }));
 
 
